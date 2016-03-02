@@ -1,3 +1,8 @@
+import sys
+import time
+import random 
+import thread
+
 '''
 If there is a message in the message queue for the machine:
     take one message off the queue
@@ -17,25 +22,37 @@ If there is no message in the queue,generate a random number in the range of 1-1
         Update the local logical clock
         Log the event, the system time, and the logical clock value
 '''
-def do_work():
-    pass
+def do_work(f):
+    event = random.randint(1,10)
+    f.write("Event: %s\tGlobal Time: %s\tMsgQueue Length: %d\tLC Time: %s\n" % 
+            (event_tpe, global_time, queue_len, lc_time))
 
 '''
 Initialization:
     Initialize network queues
     Initialize logs
 '''
-def init_process(sockets, clock_speed):
+def init_process(proc_num, sockets, clock_speed):
     # initialize stuff 
-    do_work()
+    try:
+        with open("%d-events.log" % proc_num, 'w') as f:
+            while(1):
+                sleep(clock_speed)
+                do_work(f)
+    except KeyboardInterrupt:
+        sys.exit()
 
 '''
     Start 3 processes (threads?)
     Initialize network connections/listening on sockets
     Specify the number of clock ticks per second for each process (how often it should check msgs/send msgs)
+        Random number between 1 and 6
 '''
 def main():
-    init_process(sockets, clock_speed)
+    #sockets = 
+    for i in range(3):
+        clock_speed = random.randint(1,6)
+        init_process(i, sockets, clock_speed)
 
 if __name__ == "__main__":
     main()
