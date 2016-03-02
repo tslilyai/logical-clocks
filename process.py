@@ -1,4 +1,3 @@
-import sys
 import time
 import random 
 from Queue import Queue
@@ -19,10 +18,12 @@ class Process(object):
         self.lc = 0
      
     def run_process(self):
-        with open(self.log, 'w') as f:
-            while(1):
+        while(1):
+            try:
                 time.sleep(self.clock_speed)
-                self.do_work(f)
+                self.do_work()
+            except KeyboardInterrupt:
+                exit(0)
             
     '''
     If there is a message in the message queue for the machine:
@@ -43,14 +44,15 @@ class Process(object):
             Update the local logical clock
             Log the event, the system time, and the logical clock value
     '''
-    def do_work(self, f):
+    def do_work(self):
         global_time = time.time()
 
         if not self.my_queue.empty():
             self.lc = max(self.lc, self.my_queue.get())
             event_tpe = "Receive"
-            f.write("Event: %s\tGlobal Time: %s\tMsgQueue Length: %d\tLC: %d\n" % 
-                    (event_tpe, global_time, self.my_queue.qsize(), self.lc))
+            with open(self.log, 'a') as f:
+                f.write("Event: %s\tGlobal Time: %s\tMsgQueue Length: %d\tLC: %d\n" % 
+                        (event_tpe, global_time, self.my_queue.qsize(), self.lc))
         else:
             event = random.randint(1,10)
             if event == 1:
@@ -69,5 +71,6 @@ class Process(object):
             else:
                 event_tpe = "Internal Event"
                 self.lc += 1
-                f.write("Event: %s\tGlobal Time: %s\tLC: %d\n" % 
-                        (event_tpe, global_time, self.lc))
+                with open(self.log, 'a') as f:
+                    f.write("Event: %s\tGlobal Time: %s\tLC: %d\n" % 
+                            (event_tpe, global_time, self.lc))
