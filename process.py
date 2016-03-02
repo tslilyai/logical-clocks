@@ -1,7 +1,7 @@
 import sys
 import time
 import random 
-import thread
+from Queue import Queue
 
 class Process(object):
 
@@ -10,22 +10,19 @@ class Process(object):
         Initialize network queues
         Initialize logs
     '''
-    def __init__(self, proc_num, sockets, clock_speed):
+    def __init__(self, proc_num, queues, clock_speed):
         self.proc_num = proc_num
+        self.msg_queues = queues
+        self.my_queue = queues[proc_num]
         self.clock_speed = clock_speed
-        # TODO add sending functionality (i.e. sockets/pipes) 
-        self.sockets = sockets
-        self.log = "%d-events.log" % proc_num
-        self.msg_queue = []
+        self.log = "logs/%d-events.log" % proc_num
         self.lc = 0
      
     def run_process(self):
-        try:
+        with open(self.log, 'w') as f:
             while(1):
-                time.sleep(clock_speed)
-                self.do_work()
-        except KeyboardInterrupt:
-            sys.exit()    
+                time.sleep(self.clock_speed)
+                self.do_work(f)
             
     '''
     If there is a message in the message queue for the machine:
@@ -46,33 +43,31 @@ class Process(object):
             Update the local logical clock
             Log the event, the system time, and the logical clock value
     '''
-    def do_work(self):
+    def do_work(self, f):
         global_time = time.time()
 
-        if len(msg_queue) != 0:
-            self.lc = max(self.lc, msg_queue.pop(0))
+        if not self.my_queue.empty():
+            self.lc = max(self.lc, self.my_queue.get())
             event_tpe = "Receive"
-            with open(self.log, 'rw') as f:
-                f.write("Event: %s\tGlobal Time: %s\tMsgQueue Length: %d\tLC: %d\n" % 
-                        (event_tpe, global_time, len(msg_queue), self.lc))
-        
-        # TODO add sending functionality (i.e. sockets/pipes) 
+            f.write("Event: %s\tGlobal Time: %s\tMsgQueue Length: %d\tLC: %d\n" % 
+                    (event_tpe, global_time, self.my_queue.qsize(), self.lc))
         else:
             event = random.randint(1,10)
             if event == 1:
-                recipient = (proc_num + 1) % 3
+                recipient = (self.proc_num + 1) % 3
                 event_tpe = "Send to VM %d" % recipient
+                self.msg_queues[recipient].put(self.lc)
             elif event == 2:
-                recipient = (proc_num + 2) % 3
+                recipient = (self.proc_num + 2) % 3
                 event_tpe = "Send to VM %d" % recipient
+                self.msg_queues[recipient].put(self.lc)
             elif event == 3:
-                recipients = [(proc_num + 1) % 3,(proc_num + 2) % 3]
+                recipients = [(self.proc_num + 1) % 3,(self.proc_num + 2) % 3]
                 event_tpe = "Send to VMs %d and %d" % (recipients[0], recipients[1])
+                self.msg_queues[recipients[0]].put(self.lc)
+                self.msg_queues[recipients[1]].put(self.lc)
             else:
                 event_tpe = "Internal Event"
                 self.lc += 1
-            with open(self.log, 'rw') as f:
                 f.write("Event: %s\tGlobal Time: %s\tLC: %d\n" % 
                         (event_tpe, global_time, self.lc))
-
-
