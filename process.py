@@ -3,8 +3,7 @@ import time
 import random 
 import thread
 
-
-def Process():
+class Process(object):
 
     '''
     Initialization:

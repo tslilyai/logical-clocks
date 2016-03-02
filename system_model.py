@@ -1,7 +1,6 @@
-import sys
-import time
-import random 
 from process import Process
+import random 
+import thread
 
 '''
     Start 3 processes (threads?)
@@ -14,8 +13,9 @@ def main():
     #sockets = 
     for i in range(3):
         clock_speed = random.randint(1,6)
+        sockets = []
         p = Process(i, sockets, clock_speed)
-        p.run_process()
+        thread.start_new_thread(p.run_process,())
 
 if __name__ == "__main__":
     main()
