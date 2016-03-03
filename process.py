@@ -1,5 +1,6 @@
 import time
 import random 
+import sys
 from Queue import Queue
 
 class Process(object):
@@ -9,21 +10,19 @@ class Process(object):
         Initialize network queues
         Initialize logs
     '''
-    def __init__(self, proc_num, queues, clock_speed):
+    def __init__(self, proc_num, queues, clock_speed, run_event):
         self.proc_num = proc_num
         self.msg_queues = queues
         self.my_queue = queues[proc_num]
         self.clock_speed = clock_speed
+        self.run_event = run_event
         self.log = "logs/%d-events.log" % proc_num
         self.lc = 0
      
     def run_process(self):
-        while(1):
-            try:
-                time.sleep(self.clock_speed)
-                self.do_work()
-            except KeyboardInterrupt:
-                exit(0)
+        while self.run_event.is_set():
+            time.sleep(self.clock_speed)
+            self.do_work()
             
     '''
     If there is a message in the message queue for the machine:
