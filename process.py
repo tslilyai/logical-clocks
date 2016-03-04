@@ -16,7 +16,11 @@ class Process(object):
         self.my_queue = queues[proc_num]
         self.clock_speed = clock_speed
         self.run_event = run_event
-        self.log = "logs/%d-events.log" % proc_num
+        self.log = "logs/%d-events.log" % proc_num 
+        # clear out the old logs
+        f = open(self.log, 'w')
+        f.write("Clock Speed: %d\n" % self.clock_speed)
+        f.close()
         self.lc = 0
      
     def run_process(self):
@@ -45,6 +49,7 @@ class Process(object):
     '''
     def do_work(self):
         global_time = time.time()
+        self.lc += 1
 
         if not self.my_queue.empty():
             self.lc = max(self.lc, self.my_queue.get())
@@ -69,7 +74,6 @@ class Process(object):
                 self.msg_queues[recipients[1]].put(self.lc)
             else:
                 event_tpe = "Internal Event"
-                self.lc += 1
                 with open(self.log, 'a') as f:
                     f.write("Event: %s\tGlobal Time: %s\tLC: %d\n" % 
                             (event_tpe, global_time, self.lc))
