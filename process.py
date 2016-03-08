@@ -1,7 +1,8 @@
 import time
 import random 
 import sys
-from Queue import Queue
+
+
 
 class Process(object):
 
@@ -10,12 +11,11 @@ class Process(object):
         Initialize network queues
         Initialize logs
     '''
-    def __init__(self, proc_num, queues, clock_speed, run_event):
+    def __init__(self, proc_num, queues, clock_speed):
         self.proc_num = proc_num
         self.msg_queues = queues
         self.my_queue = queues[proc_num]
         self.clock_speed = clock_speed
-        self.run_event = run_event
         self.log = "logs/%d-events.log" % proc_num 
         # clear out the old logs
         f = open(self.log, 'w')
@@ -24,7 +24,7 @@ class Process(object):
         self.lc = 0
      
     def run_process(self):
-        while self.run_event.is_set():
+        while True:
             time.sleep(self.clock_speed)
             self.do_work()
             
@@ -52,7 +52,7 @@ class Process(object):
         self.lc += 1
 
         if not self.my_queue.empty():
-            self.lc = max(self.lc, self.my_queue.get())
+            self.lc = max(self.lc, int(self.my_queue.get()))
             event_tpe = "Receive"
             with open(self.log, 'a') as f:
                 f.write("Event: %s\tGlobal Time: %s\tMsgQueue Length: %d\tLC: %d\n" % 
@@ -74,6 +74,7 @@ class Process(object):
                 self.msg_queues[recipients[1]].put(self.lc)
             else:
                 event_tpe = "Internal Event"
-                with open(self.log, 'a') as f:
-                    f.write("Event: %s\tGlobal Time: %s\tLC: %d\n" % 
-                            (event_tpe, global_time, self.lc))
+
+            with open(self.log, 'a') as f:
+                f.write("Event: %s\tGlobal Time: %s\tLC: %d\n" % 
+                        (event_tpe, global_time, self.lc))

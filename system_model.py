@@ -1,8 +1,11 @@
 from process import Process
-from Queue import Queue
+from queue import Queue
 import random 
 import threading
 import time
+
+import os
+import sys
 
 '''
     Start 3 VMs (i.e. "Process" threads)
@@ -13,24 +16,21 @@ import time
 def main():
     msg_queues = [Queue() for _ in range(3)]
     threads = []
-    run_event = threading.Event()
-    run_event.set()
+    pids = []
     for i in range(3):
         clock_speed = random.randint(1,6)
-        p = Process(i, msg_queues, clock_speed, run_event)
-        threads.append(threading.Thread(target=p.run_process))
-    for t in threads:
-        t.start()
-        print "started thread!"
+        p = Process(i, msg_queues, clock_speed)
+        pid = os.fork()
+        if pid == 0:
+            p.run_process()
+        elif pid < 0:
+            print 'Fork error'
+            sys.exit(1)
+        else:
+            pids.append(pid)
 
-    try:
-        while 1:
-            time.sleep(.1)
-    except:
-        run_event.clear()
-        print 'Killing threads. Please wait.'
-        for t in threads:
-            t.join()
+    for pid in pids:
+        os.waitpid(pid, 0)
 
 if __name__ == "__main__":
     main()
