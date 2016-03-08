@@ -1,4 +1,4 @@
-import os, fcntl
+import os, fcntl, errno
 
 class Queue(object):
     def __init__(self):
@@ -6,6 +6,10 @@ class Queue(object):
         fcntl.fcntl(self.pipe[0], fcntl.F_SETFL, os.O_NONBLOCK)
         self.buf = []
         self._ibuf = []
+
+    def __del__(self):
+        os.close(self.pipe[0])
+        os.close(self.pipe[1])
 
     def get(self):
         self._fetch_many()
@@ -19,7 +23,7 @@ class Queue(object):
                 c = os.read(r, 1)
             except OSError as e:
                 # Nothing to read
-                if e.errno == 35:
+                if e.errno == errno.EWOULDBLOCK:
                     return
                 raise e
             if c == '\n':
