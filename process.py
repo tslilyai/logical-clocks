@@ -2,8 +2,6 @@ import time
 import random 
 import sys
 
-
-
 class Process(object):
 
     '''
@@ -12,11 +10,15 @@ class Process(object):
         Initialize logs
     '''
     def __init__(self, proc_num, queues, clock_speed):
+        # trial number
+        self.trial_num = int(sys.argv[1])
+        # number of possible types of events
+        self.num_events = int(sys.argv[2])
         self.proc_num = proc_num
         self.msg_queues = queues
         self.my_queue = queues[proc_num]
         self.clock_speed = clock_speed
-        self.log = "logs/%d-events.log" % proc_num 
+        self.log = "logs/%d-events-%d:%d.log" % (proc_num, self.trial_num, self.num_events)
         # clear out the old logs
         f = open(self.log, 'w')
         f.write("Clock Speed: %d\n" % self.clock_speed)
@@ -25,7 +27,7 @@ class Process(object):
      
     def run_process(self):
         while True:
-            time.sleep(self.clock_speed)
+            time.sleep((1.0/self.clock_speed))
             self.do_work()
             
     '''
@@ -58,7 +60,7 @@ class Process(object):
                 f.write("Event: %s\tGlobal Time: %s\tMsgQueue Length: %d\tLC: %d\n" % 
                         (event_tpe, global_time, self.my_queue.qsize(), self.lc))
         else:
-            event = random.randint(1,10)
+            event = random.randint(1,self.num_events)
             if event == 1:
                 recipient = (self.proc_num + 1) % 3
                 event_tpe = "Send to VM %d" % recipient

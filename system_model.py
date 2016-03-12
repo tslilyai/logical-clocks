@@ -19,7 +19,7 @@ def main():
     pids = []
     for i in range(3):
         clock_speed = random.randint(1,6)
-        p = Process(i, msg_queues, clock_speed)
+        p = Process(i, msg_queues, (clock_speed))
         pid = os.fork()
         if pid == 0:
             p.run_process()
