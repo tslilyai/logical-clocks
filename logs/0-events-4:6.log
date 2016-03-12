@@ -1,300 +1,200 @@
 Clock Speed: 5
-Event: Internal Event	Global Time: 1457809175.06	LC: 1
-Event: Internal Event	Global Time: 1457809175.26	LC: 2
-Event: Internal Event	Global Time: 1457809175.46	LC: 3
-Event: Receive	Global Time: 1457809175.67	MsgQueue Length: 0	LC: 4
-Event: Internal Event	Global Time: 1457809175.87	LC: 5
-Event: Send to VM 2	Global Time: 1457809176.07	LC: 6
-Event: Receive	Global Time: 1457809176.27	MsgQueue Length: 0	LC: 7
-Event: Receive	Global Time: 1457809176.47	MsgQueue Length: 0	LC: 9
-Event: Send to VM 1	Global Time: 1457809176.67	LC: 10
-Event: Receive	Global Time: 1457809176.87	MsgQueue Length: 1	LC: 11
-Event: Receive	Global Time: 1457809177.07	MsgQueue Length: 0	LC: 12
-Event: Internal Event	Global Time: 1457809177.27	LC: 13
-Event: Receive	Global Time: 1457809177.47	MsgQueue Length: 0	LC: 15
-Event: Internal Event	Global Time: 1457809177.67	LC: 16
-Event: Internal Event	Global Time: 1457809177.87	LC: 17
-Event: Send to VMs 1 and 2	Global Time: 1457809178.07	LC: 18
-Event: Send to VM 1	Global Time: 1457809178.27	LC: 19
-Event: Send to VM 1	Global Time: 1457809178.47	LC: 20
-Event: Internal Event	Global Time: 1457809178.67	LC: 21
-Event: Send to VM 2	Global Time: 1457809178.87	LC: 22
-Event: Receive	Global Time: 1457809179.07	MsgQueue Length: 0	LC: 25
-Event: Send to VM 1	Global Time: 1457809179.27	LC: 26
-Event: Internal Event	Global Time: 1457809179.47	LC: 27
-Event: Internal Event	Global Time: 1457809179.67	LC: 28
-Event: Receive	Global Time: 1457809179.87	MsgQueue Length: 1	LC: 29
-Event: Receive	Global Time: 1457809180.07	MsgQueue Length: 1	LC: 30
-Event: Receive	Global Time: 1457809180.27	MsgQueue Length: 0	LC: 31
-Event: Internal Event	Global Time: 1457809180.47	LC: 32
-Event: Internal Event	Global Time: 1457809180.67	LC: 33
-Event: Internal Event	Global Time: 1457809180.87	LC: 34
-Event: Receive	Global Time: 1457809181.08	MsgQueue Length: 0	LC: 37
-Event: Send to VM 2	Global Time: 1457809181.28	LC: 38
-Event: Send to VM 2	Global Time: 1457809181.48	LC: 39
-Event: Send to VM 1	Global Time: 1457809181.68	LC: 40
-Event: Internal Event	Global Time: 1457809181.88	LC: 41
-Event: Receive	Global Time: 1457809182.08	MsgQueue Length: 0	LC: 42
-Event: Receive	Global Time: 1457809182.28	MsgQueue Length: 0	LC: 43
-Event: Send to VM 2	Global Time: 1457809182.48	LC: 44
-Event: Internal Event	Global Time: 1457809182.68	LC: 45
-Event: Send to VM 1	Global Time: 1457809182.88	LC: 46
-Event: Send to VM 1	Global Time: 1457809183.08	LC: 47
-Event: Internal Event	Global Time: 1457809183.28	LC: 48
-Event: Send to VM 2	Global Time: 1457809183.48	LC: 49
-Event: Send to VM 2	Global Time: 1457809183.68	LC: 50
-Event: Send to VMs 1 and 2	Global Time: 1457809183.88	LC: 51
-Event: Receive	Global Time: 1457809184.08	MsgQueue Length: 0	LC: 55
-Event: Send to VM 2	Global Time: 1457809184.28	LC: 56
-Event: Internal Event	Global Time: 1457809184.48	LC: 57
-Event: Send to VM 1	Global Time: 1457809184.68	LC: 58
-Event: Internal Event	Global Time: 1457809184.88	LC: 59
-Event: Send to VM 2	Global Time: 1457809185.08	LC: 60
-Event: Internal Event	Global Time: 1457809185.28	LC: 61
-Event: Internal Event	Global Time: 1457809185.48	LC: 62
-Event: Receive	Global Time: 1457809185.68	MsgQueue Length: 0	LC: 64
-Event: Internal Event	Global Time: 1457809185.89	LC: 65
-Event: Receive	Global Time: 1457809186.09	MsgQueue Length: 1	LC: 66
-Event: Receive	Global Time: 1457809186.29	MsgQueue Length: 0	LC: 67
-Event: Receive	Global Time: 1457809186.49	MsgQueue Length: 0	LC: 68
-Event: Send to VM 2	Global Time: 1457809186.69	LC: 69
-Event: Internal Event	Global Time: 1457809186.89	LC: 70
-Event: Receive	Global Time: 1457809187.09	MsgQueue Length: 1	LC: 72
-Event: Receive	Global Time: 1457809187.29	MsgQueue Length: 0	LC: 73
-Event: Receive	Global Time: 1457809187.49	MsgQueue Length: 0	LC: 74
-Event: Receive	Global Time: 1457809187.69	MsgQueue Length: 0	LC: 76
-Event: Send to VMs 1 and 2	Global Time: 1457809187.89	LC: 77
-Event: Internal Event	Global Time: 1457809188.09	LC: 78
-Event: Receive	Global Time: 1457809188.29	MsgQueue Length: 0	LC: 80
-Event: Receive	Global Time: 1457809188.49	MsgQueue Length: 1	LC: 81
-Event: Receive	Global Time: 1457809188.69	MsgQueue Length: 1	LC: 82
-Event: Receive	Global Time: 1457809188.89	MsgQueue Length: 0	LC: 83
-Event: Receive	Global Time: 1457809189.09	MsgQueue Length: 0	LC: 84
-Event: Receive	Global Time: 1457809189.29	MsgQueue Length: 0	LC: 86
-Event: Receive	Global Time: 1457809189.49	MsgQueue Length: 0	LC: 87
-Event: Send to VM 2	Global Time: 1457809189.69	LC: 88
-Event: Send to VM 2	Global Time: 1457809189.89	LC: 89
-Event: Internal Event	Global Time: 1457809190.09	LC: 90
-Event: Internal Event	Global Time: 1457809190.29	LC: 91
-Event: Receive	Global Time: 1457809190.49	MsgQueue Length: 0	LC: 93
-Event: Receive	Global Time: 1457809190.69	MsgQueue Length: 0	LC: 94
-Event: Receive	Global Time: 1457809190.9	MsgQueue Length: 0	LC: 95
-Event: Internal Event	Global Time: 1457809191.1	LC: 96
-Event: Send to VM 1	Global Time: 1457809191.3	LC: 97
-Event: Receive	Global Time: 1457809191.5	MsgQueue Length: 0	LC: 99
-Event: Receive	Global Time: 1457809191.7	MsgQueue Length: 0	LC: 100
-Event: Receive	Global Time: 1457809191.9	MsgQueue Length: 0	LC: 101
-Event: Internal Event	Global Time: 1457809192.1	LC: 102
-Event: Send to VM 1	Global Time: 1457809192.3	LC: 103
-Event: Receive	Global Time: 1457809192.5	MsgQueue Length: 0	LC: 105
-Event: Send to VMs 1 and 2	Global Time: 1457809192.7	LC: 106
-Event: Internal Event	Global Time: 1457809192.9	LC: 107
-Event: Receive	Global Time: 1457809193.1	MsgQueue Length: 0	LC: 108
-Event: Send to VM 2	Global Time: 1457809193.3	LC: 109
-Event: Receive	Global Time: 1457809193.5	MsgQueue Length: 0	LC: 110
-Event: Receive	Global Time: 1457809193.7	MsgQueue Length: 1	LC: 112
-Event: Receive	Global Time: 1457809193.9	MsgQueue Length: 1	LC: 113
-Event: Receive	Global Time: 1457809194.1	MsgQueue Length: 0	LC: 114
-Event: Receive	Global Time: 1457809194.3	MsgQueue Length: 0	LC: 115
-Event: Send to VM 2	Global Time: 1457809194.5	LC: 116
-Event: Send to VMs 1 and 2	Global Time: 1457809194.7	LC: 117
-Event: Send to VM 1	Global Time: 1457809194.9	LC: 118
-Event: Receive	Global Time: 1457809195.1	MsgQueue Length: 0	LC: 120
-Event: Internal Event	Global Time: 1457809195.3	LC: 121
-Event: Internal Event	Global Time: 1457809195.5	LC: 122
-Event: Send to VM 1	Global Time: 1457809195.7	LC: 123
-Event: Internal Event	Global Time: 1457809195.91	LC: 124
-Event: Receive	Global Time: 1457809196.11	MsgQueue Length: 0	LC: 127
-Event: Receive	Global Time: 1457809196.31	MsgQueue Length: 0	LC: 128
-Event: Send to VM 1	Global Time: 1457809196.51	LC: 129
-Event: Receive	Global Time: 1457809196.71	MsgQueue Length: 0	LC: 130
-Event: Send to VMs 1 and 2	Global Time: 1457809196.91	LC: 131
-Event: Send to VMs 1 and 2	Global Time: 1457809197.11	LC: 132
-Event: Send to VM 2	Global Time: 1457809197.31	LC: 133
-Event: Send to VM 1	Global Time: 1457809197.51	LC: 134
-Event: Send to VM 2	Global Time: 1457809197.71	LC: 135
-Event: Send to VMs 1 and 2	Global Time: 1457809197.91	LC: 136
-Event: Send to VMs 1 and 2	Global Time: 1457809198.11	LC: 137
-Event: Internal Event	Global Time: 1457809198.31	LC: 138
-Event: Receive	Global Time: 1457809198.51	MsgQueue Length: 0	LC: 141
-Event: Receive	Global Time: 1457809198.71	MsgQueue Length: 0	LC: 142
-Event: Send to VM 2	Global Time: 1457809198.91	LC: 143
-Event: Receive	Global Time: 1457809199.11	MsgQueue Length: 0	LC: 145
-Event: Receive	Global Time: 1457809199.31	MsgQueue Length: 0	LC: 146
-Event: Receive	Global Time: 1457809199.51	MsgQueue Length: 0	LC: 147
-Event: Receive	Global Time: 1457809199.71	MsgQueue Length: 1	LC: 148
-Event: Receive	Global Time: 1457809199.91	MsgQueue Length: 0	LC: 149
-Event: Internal Event	Global Time: 1457809200.11	LC: 150
-Event: Receive	Global Time: 1457809200.31	MsgQueue Length: 0	LC: 152
-Event: Send to VMs 1 and 2	Global Time: 1457809200.51	LC: 153
-Event: Send to VM 1	Global Time: 1457809200.71	LC: 154
-Event: Send to VM 1	Global Time: 1457809200.91	LC: 155
-Event: Send to VM 2	Global Time: 1457809201.11	LC: 156
-Event: Internal Event	Global Time: 1457809201.32	LC: 157
-Event: Receive	Global Time: 1457809201.52	MsgQueue Length: 0	LC: 159
-Event: Send to VMs 1 and 2	Global Time: 1457809201.72	LC: 160
-Event: Send to VM 1	Global Time: 1457809201.92	LC: 161
-Event: Receive	Global Time: 1457809202.12	MsgQueue Length: 0	LC: 163
-Event: Send to VMs 1 and 2	Global Time: 1457809202.32	LC: 164
-Event: Internal Event	Global Time: 1457809202.52	LC: 165
-Event: Receive	Global Time: 1457809202.72	MsgQueue Length: 0	LC: 166
-Event: Receive	Global Time: 1457809202.92	MsgQueue Length: 0	LC: 167
-Event: Internal Event	Global Time: 1457809203.12	LC: 168
-Event: Send to VMs 1 and 2	Global Time: 1457809203.32	LC: 169
-Event: Internal Event	Global Time: 1457809203.52	LC: 170
-Event: Send to VM 1	Global Time: 1457809203.72	LC: 171
-Event: Internal Event	Global Time: 1457809203.92	LC: 172
-Event: Receive	Global Time: 1457809204.12	MsgQueue Length: 0	LC: 174
-Event: Internal Event	Global Time: 1457809204.32	LC: 175
-Event: Receive	Global Time: 1457809204.52	MsgQueue Length: 0	LC: 176
-Event: Send to VM 1	Global Time: 1457809204.72	LC: 177
-Event: Internal Event	Global Time: 1457809204.92	LC: 178
-Event: Receive	Global Time: 1457809205.12	MsgQueue Length: 0	LC: 181
-Event: Internal Event	Global Time: 1457809205.32	LC: 182
-Event: Receive	Global Time: 1457809205.52	MsgQueue Length: 1	LC: 183
-Event: Receive	Global Time: 1457809205.72	MsgQueue Length: 1	LC: 184
-Event: Receive	Global Time: 1457809205.92	MsgQueue Length: 0	LC: 185
-Event: Receive	Global Time: 1457809206.12	MsgQueue Length: 0	LC: 186
-Event: Internal Event	Global Time: 1457809206.32	LC: 187
-Event: Send to VM 2	Global Time: 1457809206.53	LC: 188
-Event: Send to VM 1	Global Time: 1457809206.73	LC: 189
-Event: Receive	Global Time: 1457809206.93	MsgQueue Length: 0	LC: 191
-Event: Internal Event	Global Time: 1457809207.13	LC: 192
-Event: Send to VM 2	Global Time: 1457809207.33	LC: 193
-Event: Internal Event	Global Time: 1457809207.53	LC: 194
-Event: Internal Event	Global Time: 1457809207.73	LC: 195
-Event: Internal Event	Global Time: 1457809207.93	LC: 196
-Event: Receive	Global Time: 1457809208.13	MsgQueue Length: 0	LC: 198
-Event: Receive	Global Time: 1457809208.33	MsgQueue Length: 0	LC: 200
-Event: Send to VMs 1 and 2	Global Time: 1457809208.53	LC: 201
-Event: Send to VMs 1 and 2	Global Time: 1457809208.73	LC: 202
-Event: Send to VM 2	Global Time: 1457809208.93	LC: 203
-Event: Send to VM 1	Global Time: 1457809209.13	LC: 204
-Event: Send to VM 2	Global Time: 1457809209.33	LC: 205
-Event: Send to VM 2	Global Time: 1457809209.53	LC: 206
-Event: Internal Event	Global Time: 1457809209.73	LC: 207
-Event: Receive	Global Time: 1457809209.93	MsgQueue Length: 0	LC: 208
-Event: Internal Event	Global Time: 1457809210.13	LC: 209
-Event: Send to VM 1	Global Time: 1457809210.33	LC: 210
-Event: Send to VM 1	Global Time: 1457809210.53	LC: 211
-Event: Send to VM 2	Global Time: 1457809210.73	LC: 212
-Event: Receive	Global Time: 1457809210.93	MsgQueue Length: 0	LC: 213
-Event: Send to VM 1	Global Time: 1457809211.13	LC: 214
-Event: Receive	Global Time: 1457809211.33	MsgQueue Length: 0	LC: 218
-Event: Send to VMs 1 and 2	Global Time: 1457809211.54	LC: 219
-Event: Send to VM 1	Global Time: 1457809211.74	LC: 220
-Event: Send to VM 1	Global Time: 1457809211.94	LC: 221
-Event: Internal Event	Global Time: 1457809212.14	LC: 222
-Event: Send to VM 2	Global Time: 1457809212.34	LC: 223
-Event: Internal Event	Global Time: 1457809212.54	LC: 224
-Event: Receive	Global Time: 1457809212.74	MsgQueue Length: 0	LC: 225
-Event: Receive	Global Time: 1457809212.94	MsgQueue Length: 0	LC: 227
-Event: Send to VMs 1 and 2	Global Time: 1457809213.14	LC: 228
-Event: Internal Event	Global Time: 1457809213.34	LC: 229
-Event: Receive	Global Time: 1457809213.54	MsgQueue Length: 0	LC: 230
-Event: Send to VM 2	Global Time: 1457809213.74	LC: 231
-Event: Internal Event	Global Time: 1457809213.94	LC: 232
-Event: Internal Event	Global Time: 1457809214.14	LC: 233
-Event: Send to VM 1	Global Time: 1457809214.34	LC: 234
-Event: Internal Event	Global Time: 1457809214.54	LC: 235
-Event: Internal Event	Global Time: 1457809214.74	LC: 236
-Event: Send to VM 1	Global Time: 1457809214.94	LC: 237
-Event: Internal Event	Global Time: 1457809215.14	LC: 238
-Event: Send to VM 1	Global Time: 1457809215.34	LC: 239
-Event: Internal Event	Global Time: 1457809215.54	LC: 240
-Event: Receive	Global Time: 1457809215.74	MsgQueue Length: 0	LC: 244
-Event: Internal Event	Global Time: 1457809215.94	LC: 245
-Event: Internal Event	Global Time: 1457809216.14	LC: 246
-Event: Receive	Global Time: 1457809216.34	MsgQueue Length: 0	LC: 247
-Event: Receive	Global Time: 1457809216.54	MsgQueue Length: 0	LC: 248
-Event: Receive	Global Time: 1457809216.74	MsgQueue Length: 1	LC: 250
-Event: Receive	Global Time: 1457809216.95	MsgQueue Length: 0	LC: 251
-Event: Internal Event	Global Time: 1457809217.15	LC: 252
-Event: Receive	Global Time: 1457809217.35	MsgQueue Length: 0	LC: 253
-Event: Receive	Global Time: 1457809217.55	MsgQueue Length: 0	LC: 254
-Event: Receive	Global Time: 1457809217.75	MsgQueue Length: 0	LC: 255
-Event: Send to VM 2	Global Time: 1457809217.95	LC: 256
-Event: Internal Event	Global Time: 1457809218.15	LC: 257
-Event: Receive	Global Time: 1457809218.35	MsgQueue Length: 0	LC: 258
-Event: Receive	Global Time: 1457809218.55	MsgQueue Length: 0	LC: 261
-Event: Send to VM 1	Global Time: 1457809218.75	LC: 262
-Event: Send to VM 2	Global Time: 1457809218.95	LC: 263
-Event: Internal Event	Global Time: 1457809219.15	LC: 264
-Event: Receive	Global Time: 1457809219.35	MsgQueue Length: 0	LC: 265
-Event: Internal Event	Global Time: 1457809219.55	LC: 266
-Event: Receive	Global Time: 1457809219.75	MsgQueue Length: 0	LC: 268
-Event: Receive	Global Time: 1457809219.95	MsgQueue Length: 0	LC: 269
-Event: Receive	Global Time: 1457809220.15	MsgQueue Length: 0	LC: 270
-Event: Internal Event	Global Time: 1457809220.35	LC: 271
-Event: Internal Event	Global Time: 1457809220.55	LC: 272
-Event: Receive	Global Time: 1457809220.75	MsgQueue Length: 0	LC: 274
-Event: Receive	Global Time: 1457809220.95	MsgQueue Length: 0	LC: 275
-Event: Send to VMs 1 and 2	Global Time: 1457809221.15	LC: 276
-Event: Internal Event	Global Time: 1457809221.35	LC: 277
-Event: Receive	Global Time: 1457809221.55	MsgQueue Length: 0	LC: 278
-Event: Send to VM 1	Global Time: 1457809221.75	LC: 279
-Event: Internal Event	Global Time: 1457809221.96	LC: 280
-Event: Receive	Global Time: 1457809222.16	MsgQueue Length: 0	LC: 282
-Event: Receive	Global Time: 1457809222.36	MsgQueue Length: 0	LC: 284
-Event: Receive	Global Time: 1457809222.56	MsgQueue Length: 0	LC: 285
-Event: Receive	Global Time: 1457809222.76	MsgQueue Length: 0	LC: 286
-Event: Receive	Global Time: 1457809222.96	MsgQueue Length: 0	LC: 287
-Event: Internal Event	Global Time: 1457809223.16	LC: 288
-Event: Send to VMs 1 and 2	Global Time: 1457809223.36	LC: 289
-Event: Send to VM 2	Global Time: 1457809223.56	LC: 290
-Event: Internal Event	Global Time: 1457809223.76	LC: 291
-Event: Receive	Global Time: 1457809223.96	MsgQueue Length: 1	LC: 293
-Event: Receive	Global Time: 1457809224.16	MsgQueue Length: 0	LC: 294
-Event: Receive	Global Time: 1457809224.36	MsgQueue Length: 0	LC: 296
-Event: Internal Event	Global Time: 1457809224.56	LC: 297
-Event: Send to VM 1	Global Time: 1457809224.76	LC: 298
-Event: Internal Event	Global Time: 1457809224.96	LC: 299
-Event: Internal Event	Global Time: 1457809225.16	LC: 300
-Event: Send to VM 2	Global Time: 1457809225.36	LC: 301
-Event: Internal Event	Global Time: 1457809225.56	LC: 302
-Event: Receive	Global Time: 1457809225.76	MsgQueue Length: 0	LC: 304
-Event: Send to VM 1	Global Time: 1457809225.96	LC: 305
-Event: Receive	Global Time: 1457809226.16	MsgQueue Length: 0	LC: 307
-Event: Send to VM 2	Global Time: 1457809226.36	LC: 308
-Event: Send to VMs 1 and 2	Global Time: 1457809226.56	LC: 309
-Event: Internal Event	Global Time: 1457809226.76	LC: 310
-Event: Internal Event	Global Time: 1457809226.96	LC: 311
-Event: Receive	Global Time: 1457809227.16	MsgQueue Length: 0	LC: 312
-Event: Send to VM 2	Global Time: 1457809227.37	LC: 313
-Event: Internal Event	Global Time: 1457809227.57	LC: 314
-Event: Receive	Global Time: 1457809227.77	MsgQueue Length: 0	LC: 315
-Event: Receive	Global Time: 1457809227.97	MsgQueue Length: 0	LC: 317
-Event: Receive	Global Time: 1457809228.17	MsgQueue Length: 0	LC: 318
-Event: Internal Event	Global Time: 1457809228.37	LC: 319
-Event: Receive	Global Time: 1457809228.57	MsgQueue Length: 0	LC: 321
-Event: Receive	Global Time: 1457809228.77	MsgQueue Length: 0	LC: 322
-Event: Receive	Global Time: 1457809228.97	MsgQueue Length: 0	LC: 323
-Event: Receive	Global Time: 1457809229.17	MsgQueue Length: 1	LC: 324
-Event: Receive	Global Time: 1457809229.37	MsgQueue Length: 1	LC: 325
-Event: Receive	Global Time: 1457809229.57	MsgQueue Length: 0	LC: 326
-Event: Receive	Global Time: 1457809229.77	MsgQueue Length: 0	LC: 328
-Event: Internal Event	Global Time: 1457809229.97	LC: 329
-Event: Internal Event	Global Time: 1457809230.17	LC: 330
-Event: Receive	Global Time: 1457809230.37	MsgQueue Length: 0	LC: 332
-Event: Internal Event	Global Time: 1457809230.57	LC: 333
-Event: Send to VM 2	Global Time: 1457809230.77	LC: 334
-Event: Send to VM 1	Global Time: 1457809230.97	LC: 335
-Event: Receive	Global Time: 1457809231.17	MsgQueue Length: 1	LC: 336
-Event: Receive	Global Time: 1457809231.37	MsgQueue Length: 0	LC: 337
-Event: Internal Event	Global Time: 1457809231.57	LC: 338
-Event: Receive	Global Time: 1457809231.77	MsgQueue Length: 0	LC: 340
-Event: Internal Event	Global Time: 1457809231.97	LC: 341
-Event: Receive	Global Time: 1457809232.17	MsgQueue Length: 1	LC: 342
-Event: Receive	Global Time: 1457809232.38	MsgQueue Length: 0	LC: 343
-Event: Receive	Global Time: 1457809232.58	MsgQueue Length: 0	LC: 345
-Event: Internal Event	Global Time: 1457809232.78	LC: 346
-Event: Receive	Global Time: 1457809232.98	MsgQueue Length: 0	LC: 347
-Event: Internal Event	Global Time: 1457809233.18	LC: 348
-Event: Receive	Global Time: 1457809233.38	MsgQueue Length: 0	LC: 350
-Event: Send to VM 2	Global Time: 1457809233.58	LC: 351
-Event: Internal Event	Global Time: 1457809233.78	LC: 352
-Event: Receive	Global Time: 1457809233.98	MsgQueue Length: 0	LC: 353
-Event: Send to VMs 1 and 2	Global Time: 1457809234.18	LC: 354
-Event: Internal Event	Global Time: 1457809234.38	LC: 355
-Event: Receive	Global Time: 1457809234.58	MsgQueue Length: 0	LC: 356
-Event: Receive	Global Time: 1457809234.78	MsgQueue Length: 0	LC: 357
+Event: Internal Event	Global Time: 1457813652.27	LC: 1
+Event: Send to VM 1	Global Time: 1457813652.47	LC: 2
+Event: Send to VM 1	Global Time: 1457813652.68	LC: 3
+Event: Internal Event	Global Time: 1457813652.88	LC: 4
+Event: Send to VM 2	Global Time: 1457813653.08	LC: 5
+Event: Receive	Global Time: 1457813653.28	MsgQueue Length: 1	LC: 6
+Event: Send to VM 1	Global Time: 1457813653.48	LC: 7
+Event: Internal Event	Global Time: 1457813653.68	LC: 8
+Event: Internal Event	Global Time: 1457813653.88	LC: 9
+Event: Receive	Global Time: 1457813654.08	MsgQueue Length: 2	LC: 11
+Event: Receive	Global Time: 1457813654.28	MsgQueue Length: 2	LC: 12
+Event: Receive	Global Time: 1457813654.48	MsgQueue Length: 1	LC: 13
+Event: Send to VM 2	Global Time: 1457813654.68	LC: 14
+Event: Send to VMs 1 and 2	Global Time: 1457813654.88	LC: 15
+Event: Send to VMs 1 and 2	Global Time: 1457813655.08	LC: 16
+Event: Internal Event	Global Time: 1457813655.28	LC: 17
+Event: Internal Event	Global Time: 1457813655.48	LC: 18
+Event: Receive	Global Time: 1457813655.68	MsgQueue Length: 1	LC: 21
+Event: Send to VM 1	Global Time: 1457813655.88	LC: 22
+Event: Internal Event	Global Time: 1457813656.08	LC: 23
+Event: Internal Event	Global Time: 1457813656.28	LC: 24
+Event: Receive	Global Time: 1457813656.48	MsgQueue Length: 1	LC: 26
+Event: Receive	Global Time: 1457813656.68	MsgQueue Length: 1	LC: 27
+Event: Send to VMs 1 and 2	Global Time: 1457813656.88	LC: 28
+Event: Internal Event	Global Time: 1457813657.08	LC: 29
+Event: Receive	Global Time: 1457813657.29	MsgQueue Length: 1	LC: 31
+Event: Internal Event	Global Time: 1457813657.49	LC: 32
+Event: Internal Event	Global Time: 1457813657.69	LC: 33
+Event: Send to VMs 1 and 2	Global Time: 1457813657.89	LC: 34
+Event: Send to VMs 1 and 2	Global Time: 1457813658.09	LC: 35
+Event: Receive	Global Time: 1457813658.29	MsgQueue Length: 1	LC: 37
+Event: Internal Event	Global Time: 1457813658.49	LC: 38
+Event: Receive	Global Time: 1457813658.69	MsgQueue Length: 1	LC: 39
+Event: Internal Event	Global Time: 1457813658.89	LC: 40
+Event: Send to VMs 1 and 2	Global Time: 1457813659.09	LC: 41
+Event: Send to VM 1	Global Time: 1457813659.29	LC: 42
+Event: Internal Event	Global Time: 1457813659.49	LC: 43
+Event: Send to VM 1	Global Time: 1457813659.69	LC: 44
+Event: Send to VMs 1 and 2	Global Time: 1457813659.89	LC: 45
+Event: Send to VM 1	Global Time: 1457813660.09	LC: 46
+Event: Receive	Global Time: 1457813660.29	MsgQueue Length: 1	LC: 49
+Event: Receive	Global Time: 1457813660.49	MsgQueue Length: 1	LC: 50
+Event: Send to VMs 1 and 2	Global Time: 1457813660.69	LC: 51
+Event: Internal Event	Global Time: 1457813660.89	LC: 52
+Event: Internal Event	Global Time: 1457813661.09	LC: 53
+Event: Receive	Global Time: 1457813661.29	MsgQueue Length: 2	LC: 54
+Event: Receive	Global Time: 1457813661.49	MsgQueue Length: 2	LC: 55
+Event: Receive	Global Time: 1457813661.69	MsgQueue Length: 2	LC: 56
+Event: Receive	Global Time: 1457813661.89	MsgQueue Length: 2	LC: 57
+Event: Receive	Global Time: 1457813662.09	MsgQueue Length: 1	LC: 58
+Event: Internal Event	Global Time: 1457813662.3	LC: 59
+Event: Internal Event	Global Time: 1457813662.5	LC: 60
+Event: Send to VMs 1 and 2	Global Time: 1457813662.7	LC: 61
+Event: Send to VM 2	Global Time: 1457813662.9	LC: 62
+Event: Internal Event	Global Time: 1457813663.1	LC: 63
+Event: Internal Event	Global Time: 1457813663.3	LC: 64
+Event: Receive	Global Time: 1457813663.5	MsgQueue Length: 1	LC: 68
+Event: Send to VM 2	Global Time: 1457813663.7	LC: 69
+Event: Receive	Global Time: 1457813663.9	MsgQueue Length: 1	LC: 70
+Event: Send to VMs 1 and 2	Global Time: 1457813664.1	LC: 71
+Event: Receive	Global Time: 1457813664.3	MsgQueue Length: 1	LC: 73
+Event: Send to VM 2	Global Time: 1457813664.5	LC: 74
+Event: Receive	Global Time: 1457813664.7	MsgQueue Length: 1	LC: 75
+Event: Send to VMs 1 and 2	Global Time: 1457813664.9	LC: 76
+Event: Send to VMs 1 and 2	Global Time: 1457813665.1	LC: 77
+Event: Receive	Global Time: 1457813665.3	MsgQueue Length: 1	LC: 79
+Event: Send to VM 1	Global Time: 1457813665.5	LC: 80
+Event: Internal Event	Global Time: 1457813665.7	LC: 81
+Event: Receive	Global Time: 1457813665.9	MsgQueue Length: 1	LC: 82
+Event: Send to VM 1	Global Time: 1457813666.1	LC: 83
+Event: Internal Event	Global Time: 1457813666.3	LC: 84
+Event: Receive	Global Time: 1457813666.5	MsgQueue Length: 1	LC: 86
+Event: Internal Event	Global Time: 1457813666.7	LC: 87
+Event: Internal Event	Global Time: 1457813666.91	LC: 88
+Event: Receive	Global Time: 1457813667.11	MsgQueue Length: 1	LC: 89
+Event: Internal Event	Global Time: 1457813667.31	LC: 90
+Event: Internal Event	Global Time: 1457813667.51	LC: 91
+Event: Send to VMs 1 and 2	Global Time: 1457813667.71	LC: 92
+Event: Send to VM 1	Global Time: 1457813667.91	LC: 93
+Event: Send to VM 2	Global Time: 1457813668.11	LC: 94
+Event: Internal Event	Global Time: 1457813668.31	LC: 95
+Event: Send to VM 2	Global Time: 1457813668.51	LC: 96
+Event: Internal Event	Global Time: 1457813668.71	LC: 97
+Event: Send to VMs 1 and 2	Global Time: 1457813668.91	LC: 98
+Event: Internal Event	Global Time: 1457813669.11	LC: 99
+Event: Send to VMs 1 and 2	Global Time: 1457813669.31	LC: 100
+Event: Send to VM 1	Global Time: 1457813669.51	LC: 101
+Event: Send to VMs 1 and 2	Global Time: 1457813669.71	LC: 102
+Event: Internal Event	Global Time: 1457813669.91	LC: 103
+Event: Internal Event	Global Time: 1457813670.11	LC: 104
+Event: Send to VMs 1 and 2	Global Time: 1457813670.31	LC: 105
+Event: Send to VM 1	Global Time: 1457813670.51	LC: 106
+Event: Send to VM 1	Global Time: 1457813670.71	LC: 107
+Event: Send to VMs 1 and 2	Global Time: 1457813670.91	LC: 108
+Event: Internal Event	Global Time: 1457813671.11	LC: 109
+Event: Receive	Global Time: 1457813671.31	MsgQueue Length: 2	LC: 114
+Event: Receive	Global Time: 1457813671.51	MsgQueue Length: 1	LC: 115
+Event: Send to VM 1	Global Time: 1457813671.72	LC: 116
+Event: Internal Event	Global Time: 1457813671.92	LC: 117
+Event: Internal Event	Global Time: 1457813672.12	LC: 118
+Event: Receive	Global Time: 1457813672.32	MsgQueue Length: 1	LC: 121
+Event: Internal Event	Global Time: 1457813672.52	LC: 122
+Event: Send to VM 1	Global Time: 1457813672.72	LC: 123
+Event: Internal Event	Global Time: 1457813672.92	LC: 124
+Event: Internal Event	Global Time: 1457813673.12	LC: 125
+Event: Internal Event	Global Time: 1457813673.32	LC: 126
+Event: Internal Event	Global Time: 1457813673.52	LC: 127
+Event: Send to VM 1	Global Time: 1457813673.72	LC: 128
+Event: Internal Event	Global Time: 1457813673.92	LC: 129
+Event: Receive	Global Time: 1457813674.12	MsgQueue Length: 1	LC: 131
+Event: Send to VM 1	Global Time: 1457813674.32	LC: 132
+Event: Internal Event	Global Time: 1457813674.52	LC: 133
+Event: Receive	Global Time: 1457813674.72	MsgQueue Length: 1	LC: 135
+Event: Receive	Global Time: 1457813674.92	MsgQueue Length: 1	LC: 136
+Event: Send to VM 2	Global Time: 1457813675.12	LC: 137
+Event: Receive	Global Time: 1457813675.32	MsgQueue Length: 2	LC: 138
+Event: Receive	Global Time: 1457813675.52	MsgQueue Length: 1	LC: 139
+Event: Send to VMs 1 and 2	Global Time: 1457813675.72	LC: 140
+Event: Internal Event	Global Time: 1457813675.93	LC: 141
+Event: Internal Event	Global Time: 1457813676.13	LC: 142
+Event: Receive	Global Time: 1457813676.33	MsgQueue Length: 1	LC: 144
+Event: Receive	Global Time: 1457813676.53	MsgQueue Length: 1	LC: 146
+Event: Internal Event	Global Time: 1457813676.73	LC: 147
+Event: Internal Event	Global Time: 1457813676.93	LC: 148
+Event: Send to VMs 1 and 2	Global Time: 1457813677.13	LC: 149
+Event: Send to VM 1	Global Time: 1457813677.33	LC: 150
+Event: Internal Event	Global Time: 1457813677.53	LC: 151
+Event: Send to VM 1	Global Time: 1457813677.73	LC: 152
+Event: Internal Event	Global Time: 1457813677.93	LC: 153
+Event: Internal Event	Global Time: 1457813678.13	LC: 154
+Event: Send to VM 1	Global Time: 1457813678.33	LC: 155
+Event: Internal Event	Global Time: 1457813678.53	LC: 156
+Event: Send to VM 2	Global Time: 1457813678.73	LC: 157
+Event: Receive	Global Time: 1457813678.93	MsgQueue Length: 1	LC: 160
+Event: Receive	Global Time: 1457813679.13	MsgQueue Length: 1	LC: 161
+Event: Receive	Global Time: 1457813679.33	MsgQueue Length: 1	LC: 162
+Event: Internal Event	Global Time: 1457813679.53	LC: 163
+Event: Receive	Global Time: 1457813679.73	MsgQueue Length: 1	LC: 165
+Event: Internal Event	Global Time: 1457813679.93	LC: 166
+Event: Receive	Global Time: 1457813680.13	MsgQueue Length: 1	LC: 167
+Event: Receive	Global Time: 1457813680.33	MsgQueue Length: 1	LC: 169
+Event: Send to VM 2	Global Time: 1457813680.53	LC: 170
+Event: Send to VM 2	Global Time: 1457813680.74	LC: 171
+Event: Internal Event	Global Time: 1457813680.94	LC: 172
+Event: Receive	Global Time: 1457813681.14	MsgQueue Length: 1	LC: 173
+Event: Send to VM 2	Global Time: 1457813681.34	LC: 174
+Event: Send to VMs 1 and 2	Global Time: 1457813681.54	LC: 175
+Event: Send to VM 1	Global Time: 1457813681.74	LC: 176
+Event: Internal Event	Global Time: 1457813681.94	LC: 177
+Event: Receive	Global Time: 1457813682.14	MsgQueue Length: 1	LC: 179
+Event: Receive	Global Time: 1457813682.34	MsgQueue Length: 1	LC: 180
+Event: Internal Event	Global Time: 1457813682.54	LC: 181
+Event: Send to VM 2	Global Time: 1457813682.74	LC: 182
+Event: Receive	Global Time: 1457813682.94	MsgQueue Length: 1	LC: 184
+Event: Send to VM 1	Global Time: 1457813683.14	LC: 185
+Event: Send to VM 2	Global Time: 1457813683.34	LC: 186
+Event: Internal Event	Global Time: 1457813683.54	LC: 187
+Event: Internal Event	Global Time: 1457813683.74	LC: 188
+Event: Internal Event	Global Time: 1457813683.94	LC: 189
+Event: Internal Event	Global Time: 1457813684.14	LC: 190
+Event: Receive	Global Time: 1457813684.34	MsgQueue Length: 1	LC: 193
+Event: Receive	Global Time: 1457813684.54	MsgQueue Length: 1	LC: 194
+Event: Internal Event	Global Time: 1457813684.74	LC: 195
+Event: Send to VM 1	Global Time: 1457813684.94	LC: 196
+Event: Send to VM 1	Global Time: 1457813685.15	LC: 197
+Event: Send to VM 1	Global Time: 1457813685.35	LC: 198
+Event: Internal Event	Global Time: 1457813685.55	LC: 199
+Event: Receive	Global Time: 1457813685.75	MsgQueue Length: 1	LC: 201
+Event: Send to VM 2	Global Time: 1457813685.95	LC: 202
+Event: Receive	Global Time: 1457813686.15	MsgQueue Length: 1	LC: 203
+Event: Send to VM 2	Global Time: 1457813686.35	LC: 204
+Event: Send to VMs 1 and 2	Global Time: 1457813686.55	LC: 205
+Event: Internal Event	Global Time: 1457813686.75	LC: 206
+Event: Receive	Global Time: 1457813686.95	MsgQueue Length: 1	LC: 208
+Event: Internal Event	Global Time: 1457813687.15	LC: 209
+Event: Receive	Global Time: 1457813687.35	MsgQueue Length: 1	LC: 210
+Event: Send to VM 2	Global Time: 1457813687.55	LC: 211
+Event: Internal Event	Global Time: 1457813687.75	LC: 212
+Event: Send to VM 2	Global Time: 1457813687.95	LC: 213
+Event: Internal Event	Global Time: 1457813688.15	LC: 214
+Event: Send to VMs 1 and 2	Global Time: 1457813688.35	LC: 215
+Event: Internal Event	Global Time: 1457813688.55	LC: 216
+Event: Internal Event	Global Time: 1457813688.75	LC: 217
+Event: Send to VM 1	Global Time: 1457813688.95	LC: 218
+Event: Send to VM 2	Global Time: 1457813689.15	LC: 219
+Event: Internal Event	Global Time: 1457813689.35	LC: 220
+Event: Internal Event	Global Time: 1457813689.55	LC: 221
+Event: Internal Event	Global Time: 1457813689.76	LC: 222
+Event: Send to VMs 1 and 2	Global Time: 1457813689.96	LC: 223
+Event: Send to VMs 1 and 2	Global Time: 1457813690.16	LC: 224
+Event: Internal Event	Global Time: 1457813690.36	LC: 225
+Event: Internal Event	Global Time: 1457813690.56	LC: 226
+Event: Internal Event	Global Time: 1457813690.76	LC: 227
+Event: Receive	Global Time: 1457813690.96	MsgQueue Length: 1	LC: 232
+Event: Send to VMs 1 and 2	Global Time: 1457813691.16	LC: 233
+Event: Internal Event	Global Time: 1457813691.36	LC: 234
+Event: Internal Event	Global Time: 1457813691.56	LC: 235
+Event: Send to VM 1	Global Time: 1457813691.76	LC: 236
+Event: Internal Event	Global Time: 1457813691.96	LC: 237

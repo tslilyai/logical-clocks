@@ -1,240 +1,240 @@
-Clock Speed: 4
-Event: Send to VM 2	Global Time: 1457809415.12	LC: 1
-Event: Send to VM 0	Global Time: 1457809415.37	LC: 2
-Event: Internal Event	Global Time: 1457809415.62	LC: 3
-Event: Send to VM 2	Global Time: 1457809415.87	LC: 4
-Event: Internal Event	Global Time: 1457809416.12	LC: 5
-Event: Internal Event	Global Time: 1457809416.37	LC: 6
-Event: Internal Event	Global Time: 1457809416.62	LC: 7
-Event: Receive	Global Time: 1457809416.87	MsgQueue Length: 0	LC: 8
-Event: Send to VM 2	Global Time: 1457809417.12	LC: 9
-Event: Internal Event	Global Time: 1457809417.37	LC: 10
-Event: Send to VMs 2 and 0	Global Time: 1457809417.62	LC: 11
-Event: Internal Event	Global Time: 1457809417.87	LC: 12
-Event: Send to VMs 2 and 0	Global Time: 1457809418.12	LC: 13
-Event: Send to VMs 2 and 0	Global Time: 1457809418.37	LC: 14
-Event: Send to VMs 2 and 0	Global Time: 1457809418.62	LC: 15
-Event: Internal Event	Global Time: 1457809418.88	LC: 16
-Event: Send to VM 2	Global Time: 1457809419.13	LC: 17
-Event: Send to VM 2	Global Time: 1457809419.38	LC: 18
-Event: Send to VM 2	Global Time: 1457809419.63	LC: 19
-Event: Send to VMs 2 and 0	Global Time: 1457809419.88	LC: 20
-Event: Send to VM 0	Global Time: 1457809420.13	LC: 21
-Event: Send to VM 0	Global Time: 1457809420.38	LC: 22
-Event: Send to VM 2	Global Time: 1457809420.63	LC: 23
-Event: Send to VM 0	Global Time: 1457809420.88	LC: 24
-Event: Send to VM 0	Global Time: 1457809421.13	LC: 25
-Event: Send to VMs 2 and 0	Global Time: 1457809421.38	LC: 26
-Event: Internal Event	Global Time: 1457809421.63	LC: 27
-Event: Internal Event	Global Time: 1457809421.88	LC: 28
-Event: Send to VM 2	Global Time: 1457809422.13	LC: 29
-Event: Send to VMs 2 and 0	Global Time: 1457809422.38	LC: 30
-Event: Send to VM 0	Global Time: 1457809422.63	LC: 31
-Event: Send to VM 0	Global Time: 1457809422.88	LC: 32
-Event: Internal Event	Global Time: 1457809423.13	LC: 33
-Event: Send to VM 2	Global Time: 1457809423.38	LC: 34
-Event: Send to VM 0	Global Time: 1457809423.63	LC: 35
-Event: Send to VMs 2 and 0	Global Time: 1457809423.88	LC: 36
-Event: Internal Event	Global Time: 1457809424.13	LC: 37
-Event: Internal Event	Global Time: 1457809424.38	LC: 38
-Event: Internal Event	Global Time: 1457809424.64	LC: 39
-Event: Send to VMs 2 and 0	Global Time: 1457809424.89	LC: 40
-Event: Send to VM 0	Global Time: 1457809425.14	LC: 41
-Event: Send to VM 2	Global Time: 1457809425.39	LC: 42
-Event: Send to VM 2	Global Time: 1457809425.64	LC: 43
-Event: Send to VMs 2 and 0	Global Time: 1457809425.89	LC: 44
-Event: Send to VM 2	Global Time: 1457809426.14	LC: 45
-Event: Internal Event	Global Time: 1457809426.39	LC: 46
-Event: Send to VMs 2 and 0	Global Time: 1457809426.64	LC: 47
-Event: Internal Event	Global Time: 1457809426.89	LC: 48
-Event: Send to VMs 2 and 0	Global Time: 1457809427.14	LC: 49
-Event: Internal Event	Global Time: 1457809427.39	LC: 50
-Event: Send to VM 2	Global Time: 1457809427.64	LC: 51
-Event: Send to VM 2	Global Time: 1457809427.89	LC: 52
-Event: Internal Event	Global Time: 1457809428.14	LC: 53
-Event: Send to VM 2	Global Time: 1457809428.39	LC: 54
-Event: Send to VMs 2 and 0	Global Time: 1457809428.64	LC: 55
-Event: Internal Event	Global Time: 1457809428.89	LC: 56
-Event: Send to VMs 2 and 0	Global Time: 1457809429.14	LC: 57
-Event: Send to VMs 2 and 0	Global Time: 1457809429.39	LC: 58
-Event: Send to VMs 2 and 0	Global Time: 1457809429.64	LC: 59
-Event: Send to VM 0	Global Time: 1457809429.89	LC: 60
-Event: Internal Event	Global Time: 1457809430.14	LC: 61
-Event: Send to VM 0	Global Time: 1457809430.39	LC: 62
-Event: Send to VM 0	Global Time: 1457809430.65	LC: 63
-Event: Send to VMs 2 and 0	Global Time: 1457809430.9	LC: 64
-Event: Internal Event	Global Time: 1457809431.15	LC: 65
-Event: Internal Event	Global Time: 1457809431.4	LC: 66
-Event: Send to VM 0	Global Time: 1457809431.65	LC: 67
-Event: Send to VMs 2 and 0	Global Time: 1457809431.9	LC: 68
-Event: Send to VM 2	Global Time: 1457809432.15	LC: 69
-Event: Send to VMs 2 and 0	Global Time: 1457809432.4	LC: 70
-Event: Send to VM 0	Global Time: 1457809432.65	LC: 71
-Event: Send to VM 0	Global Time: 1457809432.9	LC: 72
-Event: Send to VMs 2 and 0	Global Time: 1457809433.15	LC: 73
-Event: Send to VMs 2 and 0	Global Time: 1457809433.4	LC: 74
-Event: Internal Event	Global Time: 1457809433.65	LC: 75
-Event: Send to VM 0	Global Time: 1457809433.9	LC: 76
-Event: Internal Event	Global Time: 1457809434.15	LC: 77
-Event: Send to VM 0	Global Time: 1457809434.4	LC: 78
-Event: Send to VM 0	Global Time: 1457809434.65	LC: 79
-Event: Send to VM 2	Global Time: 1457809434.9	LC: 80
-Event: Internal Event	Global Time: 1457809435.15	LC: 81
-Event: Send to VM 2	Global Time: 1457809435.4	LC: 82
-Event: Send to VM 0	Global Time: 1457809435.65	LC: 83
-Event: Send to VM 0	Global Time: 1457809435.9	LC: 84
-Event: Send to VM 2	Global Time: 1457809436.15	LC: 85
-Event: Internal Event	Global Time: 1457809436.41	LC: 86
-Event: Send to VM 0	Global Time: 1457809436.66	LC: 87
-Event: Send to VM 0	Global Time: 1457809436.91	LC: 88
-Event: Send to VMs 2 and 0	Global Time: 1457809437.16	LC: 89
-Event: Send to VM 0	Global Time: 1457809437.41	LC: 90
-Event: Send to VM 2	Global Time: 1457809437.66	LC: 91
-Event: Internal Event	Global Time: 1457809437.91	LC: 92
-Event: Send to VM 2	Global Time: 1457809438.16	LC: 93
-Event: Send to VMs 2 and 0	Global Time: 1457809438.41	LC: 94
-Event: Send to VMs 2 and 0	Global Time: 1457809438.66	LC: 95
-Event: Send to VMs 2 and 0	Global Time: 1457809438.91	LC: 96
-Event: Send to VM 2	Global Time: 1457809439.16	LC: 97
-Event: Send to VMs 2 and 0	Global Time: 1457809439.41	LC: 98
-Event: Send to VM 0	Global Time: 1457809439.66	LC: 99
-Event: Send to VM 0	Global Time: 1457809439.91	LC: 100
-Event: Send to VM 2	Global Time: 1457809440.16	LC: 101
-Event: Send to VM 2	Global Time: 1457809440.41	LC: 102
-Event: Send to VMs 2 and 0	Global Time: 1457809440.66	LC: 103
-Event: Send to VM 2	Global Time: 1457809440.91	LC: 104
-Event: Internal Event	Global Time: 1457809441.16	LC: 105
-Event: Send to VM 0	Global Time: 1457809441.41	LC: 106
-Event: Send to VM 2	Global Time: 1457809441.66	LC: 107
-Event: Send to VM 0	Global Time: 1457809441.91	LC: 108
-Event: Send to VMs 2 and 0	Global Time: 1457809442.17	LC: 109
-Event: Send to VM 2	Global Time: 1457809442.42	LC: 110
-Event: Send to VM 2	Global Time: 1457809442.67	LC: 111
-Event: Send to VM 2	Global Time: 1457809442.92	LC: 112
-Event: Send to VMs 2 and 0	Global Time: 1457809443.17	LC: 113
-Event: Send to VM 0	Global Time: 1457809443.42	LC: 114
-Event: Send to VMs 2 and 0	Global Time: 1457809443.67	LC: 115
-Event: Internal Event	Global Time: 1457809443.92	LC: 116
-Event: Send to VMs 2 and 0	Global Time: 1457809444.17	LC: 117
-Event: Send to VM 2	Global Time: 1457809444.42	LC: 118
-Event: Send to VM 2	Global Time: 1457809444.67	LC: 119
-Event: Internal Event	Global Time: 1457809444.92	LC: 120
-Event: Send to VM 0	Global Time: 1457809445.17	LC: 121
-Event: Send to VMs 2 and 0	Global Time: 1457809445.42	LC: 122
-Event: Send to VM 2	Global Time: 1457809445.67	LC: 123
-Event: Send to VMs 2 and 0	Global Time: 1457809445.92	LC: 124
-Event: Internal Event	Global Time: 1457809446.17	LC: 125
-Event: Internal Event	Global Time: 1457809446.42	LC: 126
-Event: Send to VMs 2 and 0	Global Time: 1457809446.67	LC: 127
-Event: Send to VMs 2 and 0	Global Time: 1457809446.92	LC: 128
-Event: Internal Event	Global Time: 1457809447.17	LC: 129
-Event: Internal Event	Global Time: 1457809447.42	LC: 130
-Event: Send to VM 2	Global Time: 1457809447.67	LC: 131
-Event: Internal Event	Global Time: 1457809447.93	LC: 132
-Event: Internal Event	Global Time: 1457809448.18	LC: 133
-Event: Send to VM 0	Global Time: 1457809448.43	LC: 134
-Event: Internal Event	Global Time: 1457809448.68	LC: 135
-Event: Send to VM 2	Global Time: 1457809448.93	LC: 136
-Event: Internal Event	Global Time: 1457809449.18	LC: 137
-Event: Send to VMs 2 and 0	Global Time: 1457809449.43	LC: 138
-Event: Send to VM 2	Global Time: 1457809449.68	LC: 139
-Event: Send to VM 0	Global Time: 1457809449.93	LC: 140
-Event: Send to VM 0	Global Time: 1457809450.18	LC: 141
-Event: Send to VM 2	Global Time: 1457809450.43	LC: 142
-Event: Send to VM 0	Global Time: 1457809450.68	LC: 143
-Event: Send to VM 0	Global Time: 1457809450.93	LC: 144
-Event: Send to VM 2	Global Time: 1457809451.18	LC: 145
-Event: Internal Event	Global Time: 1457809451.43	LC: 146
-Event: Send to VMs 2 and 0	Global Time: 1457809451.68	LC: 147
-Event: Send to VM 0	Global Time: 1457809451.93	LC: 148
-Event: Internal Event	Global Time: 1457809452.18	LC: 149
-Event: Send to VM 2	Global Time: 1457809452.43	LC: 150
-Event: Send to VM 2	Global Time: 1457809452.68	LC: 151
-Event: Send to VM 2	Global Time: 1457809452.93	LC: 152
-Event: Internal Event	Global Time: 1457809453.18	LC: 153
-Event: Internal Event	Global Time: 1457809453.44	LC: 154
-Event: Send to VM 0	Global Time: 1457809453.69	LC: 155
-Event: Send to VM 0	Global Time: 1457809453.94	LC: 156
-Event: Internal Event	Global Time: 1457809454.19	LC: 157
-Event: Send to VM 0	Global Time: 1457809454.44	LC: 158
-Event: Send to VM 0	Global Time: 1457809454.69	LC: 159
-Event: Send to VM 0	Global Time: 1457809454.94	LC: 160
-Event: Internal Event	Global Time: 1457809455.19	LC: 161
-Event: Internal Event	Global Time: 1457809455.44	LC: 162
-Event: Internal Event	Global Time: 1457809455.69	LC: 163
-Event: Send to VMs 2 and 0	Global Time: 1457809455.94	LC: 164
-Event: Send to VMs 2 and 0	Global Time: 1457809456.19	LC: 165
-Event: Internal Event	Global Time: 1457809456.44	LC: 166
-Event: Send to VMs 2 and 0	Global Time: 1457809456.69	LC: 167
-Event: Internal Event	Global Time: 1457809456.94	LC: 168
-Event: Send to VMs 2 and 0	Global Time: 1457809457.19	LC: 169
-Event: Send to VM 0	Global Time: 1457809457.44	LC: 170
-Event: Send to VM 2	Global Time: 1457809457.69	LC: 171
-Event: Internal Event	Global Time: 1457809457.94	LC: 172
-Event: Send to VMs 2 and 0	Global Time: 1457809458.19	LC: 173
-Event: Send to VM 0	Global Time: 1457809458.44	LC: 174
-Event: Send to VM 2	Global Time: 1457809458.69	LC: 175
-Event: Internal Event	Global Time: 1457809458.94	LC: 176
-Event: Send to VMs 2 and 0	Global Time: 1457809459.2	LC: 177
-Event: Send to VM 2	Global Time: 1457809459.45	LC: 178
-Event: Internal Event	Global Time: 1457809459.7	LC: 179
-Event: Send to VM 0	Global Time: 1457809459.95	LC: 180
-Event: Send to VM 0	Global Time: 1457809460.2	LC: 181
-Event: Internal Event	Global Time: 1457809460.45	LC: 182
-Event: Internal Event	Global Time: 1457809460.7	LC: 183
-Event: Send to VM 2	Global Time: 1457809460.95	LC: 184
-Event: Send to VM 0	Global Time: 1457809461.2	LC: 185
-Event: Internal Event	Global Time: 1457809461.45	LC: 186
-Event: Send to VM 2	Global Time: 1457809461.7	LC: 187
-Event: Internal Event	Global Time: 1457809461.95	LC: 188
-Event: Send to VMs 2 and 0	Global Time: 1457809462.2	LC: 189
-Event: Send to VM 0	Global Time: 1457809462.45	LC: 190
-Event: Send to VM 2	Global Time: 1457809462.7	LC: 191
-Event: Send to VM 2	Global Time: 1457809462.95	LC: 192
-Event: Send to VMs 2 and 0	Global Time: 1457809463.2	LC: 193
-Event: Internal Event	Global Time: 1457809463.45	LC: 194
-Event: Send to VMs 2 and 0	Global Time: 1457809463.7	LC: 195
-Event: Send to VMs 2 and 0	Global Time: 1457809463.95	LC: 196
-Event: Send to VM 0	Global Time: 1457809464.2	LC: 197
-Event: Send to VMs 2 and 0	Global Time: 1457809464.45	LC: 198
-Event: Internal Event	Global Time: 1457809464.7	LC: 199
-Event: Send to VM 0	Global Time: 1457809464.96	LC: 200
-Event: Send to VM 2	Global Time: 1457809465.21	LC: 201
-Event: Internal Event	Global Time: 1457809465.46	LC: 202
-Event: Send to VM 2	Global Time: 1457809465.71	LC: 203
-Event: Internal Event	Global Time: 1457809465.96	LC: 204
-Event: Send to VMs 2 and 0	Global Time: 1457809466.21	LC: 205
-Event: Send to VM 0	Global Time: 1457809466.46	LC: 206
-Event: Send to VM 2	Global Time: 1457809466.71	LC: 207
-Event: Send to VM 2	Global Time: 1457809466.96	LC: 208
-Event: Send to VM 0	Global Time: 1457809467.21	LC: 209
-Event: Send to VMs 2 and 0	Global Time: 1457809467.46	LC: 210
-Event: Send to VM 2	Global Time: 1457809467.71	LC: 211
-Event: Send to VM 0	Global Time: 1457809467.96	LC: 212
-Event: Send to VM 0	Global Time: 1457809468.21	LC: 213
-Event: Send to VM 0	Global Time: 1457809468.46	LC: 214
-Event: Send to VM 2	Global Time: 1457809468.71	LC: 215
-Event: Send to VM 0	Global Time: 1457809468.96	LC: 216
-Event: Internal Event	Global Time: 1457809469.21	LC: 217
-Event: Internal Event	Global Time: 1457809469.46	LC: 218
-Event: Send to VMs 2 and 0	Global Time: 1457809469.71	LC: 219
-Event: Send to VM 2	Global Time: 1457809469.96	LC: 220
-Event: Send to VM 0	Global Time: 1457809470.21	LC: 221
-Event: Internal Event	Global Time: 1457809470.46	LC: 222
-Event: Send to VM 2	Global Time: 1457809470.71	LC: 223
-Event: Send to VM 2	Global Time: 1457809470.97	LC: 224
-Event: Send to VM 0	Global Time: 1457809471.22	LC: 225
-Event: Internal Event	Global Time: 1457809471.47	LC: 226
-Event: Send to VM 0	Global Time: 1457809471.72	LC: 227
-Event: Send to VM 0	Global Time: 1457809471.97	LC: 228
-Event: Send to VM 2	Global Time: 1457809472.22	LC: 229
-Event: Internal Event	Global Time: 1457809472.47	LC: 230
-Event: Internal Event	Global Time: 1457809472.72	LC: 231
-Event: Send to VM 2	Global Time: 1457809472.97	LC: 232
-Event: Send to VMs 2 and 0	Global Time: 1457809473.22	LC: 233
-Event: Send to VMs 2 and 0	Global Time: 1457809473.47	LC: 234
-Event: Internal Event	Global Time: 1457809473.72	LC: 235
-Event: Internal Event	Global Time: 1457809473.97	LC: 236
-Event: Send to VMs 2 and 0	Global Time: 1457809474.22	LC: 237
-Event: Send to VM 2	Global Time: 1457809474.47	LC: 238
-Event: Internal Event	Global Time: 1457809474.72	LC: 239
+Clock Speed: 6
+Event: Send to VM 0	Global Time: 1457813772.25	LC: 1
+Event: Send to VMs 2 and 0	Global Time: 1457813772.42	LC: 2
+Event: Send to VM 0	Global Time: 1457813772.58	LC: 3
+Event: Send to VMs 2 and 0	Global Time: 1457813772.75	LC: 4
+Event: Internal Event	Global Time: 1457813772.92	LC: 5
+Event: Send to VMs 2 and 0	Global Time: 1457813773.09	LC: 6
+Event: Internal Event	Global Time: 1457813773.25	LC: 7
+Event: Send to VM 2	Global Time: 1457813773.42	LC: 8
+Event: Send to VM 2	Global Time: 1457813773.59	LC: 9
+Event: Send to VMs 2 and 0	Global Time: 1457813773.75	LC: 10
+Event: Send to VM 0	Global Time: 1457813773.92	LC: 11
+Event: Send to VMs 2 and 0	Global Time: 1457813774.09	LC: 12
+Event: Send to VM 2	Global Time: 1457813774.25	LC: 13
+Event: Internal Event	Global Time: 1457813774.42	LC: 14
+Event: Send to VM 0	Global Time: 1457813774.59	LC: 15
+Event: Send to VM 2	Global Time: 1457813774.76	LC: 16
+Event: Internal Event	Global Time: 1457813774.92	LC: 17
+Event: Send to VMs 2 and 0	Global Time: 1457813775.09	LC: 18
+Event: Send to VMs 2 and 0	Global Time: 1457813775.26	LC: 19
+Event: Send to VM 0	Global Time: 1457813775.42	LC: 20
+Event: Send to VM 0	Global Time: 1457813775.59	LC: 21
+Event: Send to VM 0	Global Time: 1457813775.76	LC: 22
+Event: Send to VM 2	Global Time: 1457813775.92	LC: 23
+Event: Send to VM 2	Global Time: 1457813776.09	LC: 24
+Event: Send to VM 0	Global Time: 1457813776.26	LC: 25
+Event: Send to VMs 2 and 0	Global Time: 1457813776.43	LC: 26
+Event: Send to VM 2	Global Time: 1457813776.59	LC: 27
+Event: Internal Event	Global Time: 1457813776.76	LC: 28
+Event: Send to VMs 2 and 0	Global Time: 1457813776.93	LC: 29
+Event: Send to VM 2	Global Time: 1457813777.09	LC: 30
+Event: Internal Event	Global Time: 1457813777.26	LC: 31
+Event: Send to VM 0	Global Time: 1457813777.43	LC: 32
+Event: Send to VM 0	Global Time: 1457813777.6	LC: 33
+Event: Send to VM 0	Global Time: 1457813777.76	LC: 34
+Event: Send to VM 0	Global Time: 1457813777.93	LC: 35
+Event: Send to VM 0	Global Time: 1457813778.1	LC: 36
+Event: Send to VMs 2 and 0	Global Time: 1457813778.26	LC: 37
+Event: Internal Event	Global Time: 1457813778.43	LC: 38
+Event: Send to VM 2	Global Time: 1457813778.6	LC: 39
+Event: Send to VM 2	Global Time: 1457813778.76	LC: 40
+Event: Send to VMs 2 and 0	Global Time: 1457813778.93	LC: 41
+Event: Internal Event	Global Time: 1457813779.1	LC: 42
+Event: Send to VM 2	Global Time: 1457813779.27	LC: 43
+Event: Send to VMs 2 and 0	Global Time: 1457813779.43	LC: 44
+Event: Internal Event	Global Time: 1457813779.6	LC: 45
+Event: Send to VMs 2 and 0	Global Time: 1457813779.77	LC: 46
+Event: Send to VM 2	Global Time: 1457813779.93	LC: 47
+Event: Send to VM 2	Global Time: 1457813780.1	LC: 48
+Event: Send to VM 2	Global Time: 1457813780.27	LC: 49
+Event: Internal Event	Global Time: 1457813780.43	LC: 50
+Event: Internal Event	Global Time: 1457813780.6	LC: 51
+Event: Send to VMs 2 and 0	Global Time: 1457813780.77	LC: 52
+Event: Send to VM 2	Global Time: 1457813780.94	LC: 53
+Event: Send to VM 2	Global Time: 1457813781.1	LC: 54
+Event: Send to VM 2	Global Time: 1457813781.27	LC: 55
+Event: Internal Event	Global Time: 1457813781.44	LC: 56
+Event: Send to VM 2	Global Time: 1457813781.61	LC: 57
+Event: Send to VMs 2 and 0	Global Time: 1457813781.77	LC: 58
+Event: Send to VMs 2 and 0	Global Time: 1457813781.94	LC: 59
+Event: Internal Event	Global Time: 1457813782.11	LC: 60
+Event: Internal Event	Global Time: 1457813782.27	LC: 61
+Event: Internal Event	Global Time: 1457813782.44	LC: 62
+Event: Send to VM 0	Global Time: 1457813782.61	LC: 63
+Event: Send to VM 0	Global Time: 1457813782.77	LC: 64
+Event: Send to VM 0	Global Time: 1457813782.94	LC: 65
+Event: Send to VM 2	Global Time: 1457813783.11	LC: 66
+Event: Send to VMs 2 and 0	Global Time: 1457813783.28	LC: 67
+Event: Send to VM 0	Global Time: 1457813783.44	LC: 68
+Event: Send to VM 2	Global Time: 1457813783.61	LC: 69
+Event: Internal Event	Global Time: 1457813783.78	LC: 70
+Event: Internal Event	Global Time: 1457813783.94	LC: 71
+Event: Send to VMs 2 and 0	Global Time: 1457813784.11	LC: 72
+Event: Send to VM 0	Global Time: 1457813784.28	LC: 73
+Event: Send to VMs 2 and 0	Global Time: 1457813784.44	LC: 74
+Event: Internal Event	Global Time: 1457813784.61	LC: 75
+Event: Send to VMs 2 and 0	Global Time: 1457813784.78	LC: 76
+Event: Send to VM 0	Global Time: 1457813784.95	LC: 77
+Event: Send to VMs 2 and 0	Global Time: 1457813785.11	LC: 78
+Event: Internal Event	Global Time: 1457813785.28	LC: 79
+Event: Send to VM 2	Global Time: 1457813785.45	LC: 80
+Event: Send to VM 0	Global Time: 1457813785.61	LC: 81
+Event: Send to VMs 2 and 0	Global Time: 1457813785.78	LC: 82
+Event: Send to VMs 2 and 0	Global Time: 1457813785.95	LC: 83
+Event: Send to VMs 2 and 0	Global Time: 1457813786.11	LC: 84
+Event: Internal Event	Global Time: 1457813786.28	LC: 85
+Event: Send to VMs 2 and 0	Global Time: 1457813786.45	LC: 86
+Event: Send to VMs 2 and 0	Global Time: 1457813786.62	LC: 87
+Event: Send to VM 2	Global Time: 1457813786.78	LC: 88
+Event: Internal Event	Global Time: 1457813786.95	LC: 89
+Event: Send to VM 2	Global Time: 1457813787.12	LC: 90
+Event: Send to VM 2	Global Time: 1457813787.28	LC: 91
+Event: Send to VM 0	Global Time: 1457813787.45	LC: 92
+Event: Send to VMs 2 and 0	Global Time: 1457813787.62	LC: 93
+Event: Internal Event	Global Time: 1457813787.79	LC: 94
+Event: Internal Event	Global Time: 1457813787.95	LC: 95
+Event: Internal Event	Global Time: 1457813788.12	LC: 96
+Event: Send to VM 2	Global Time: 1457813788.29	LC: 97
+Event: Send to VM 0	Global Time: 1457813788.45	LC: 98
+Event: Send to VM 0	Global Time: 1457813788.62	LC: 99
+Event: Internal Event	Global Time: 1457813788.79	LC: 100
+Event: Internal Event	Global Time: 1457813788.96	LC: 101
+Event: Send to VM 0	Global Time: 1457813789.12	LC: 102
+Event: Send to VM 2	Global Time: 1457813789.29	LC: 103
+Event: Send to VMs 2 and 0	Global Time: 1457813789.46	LC: 104
+Event: Internal Event	Global Time: 1457813789.62	LC: 105
+Event: Send to VMs 2 and 0	Global Time: 1457813789.79	LC: 106
+Event: Send to VM 0	Global Time: 1457813789.96	LC: 107
+Event: Send to VMs 2 and 0	Global Time: 1457813790.12	LC: 108
+Event: Send to VMs 2 and 0	Global Time: 1457813790.29	LC: 109
+Event: Send to VM 2	Global Time: 1457813790.46	LC: 110
+Event: Send to VMs 2 and 0	Global Time: 1457813790.63	LC: 111
+Event: Send to VMs 2 and 0	Global Time: 1457813790.79	LC: 112
+Event: Send to VM 0	Global Time: 1457813790.96	LC: 113
+Event: Send to VM 0	Global Time: 1457813791.13	LC: 114
+Event: Send to VM 2	Global Time: 1457813791.29	LC: 115
+Event: Send to VM 0	Global Time: 1457813791.46	LC: 116
+Event: Internal Event	Global Time: 1457813791.63	LC: 117
+Event: Send to VM 0	Global Time: 1457813791.79	LC: 118
+Event: Internal Event	Global Time: 1457813791.96	LC: 119
+Event: Send to VMs 2 and 0	Global Time: 1457813792.13	LC: 120
+Event: Send to VM 2	Global Time: 1457813792.3	LC: 121
+Event: Send to VM 2	Global Time: 1457813792.46	LC: 122
+Event: Send to VMs 2 and 0	Global Time: 1457813792.63	LC: 123
+Event: Internal Event	Global Time: 1457813792.8	LC: 124
+Event: Send to VMs 2 and 0	Global Time: 1457813792.96	LC: 125
+Event: Send to VMs 2 and 0	Global Time: 1457813793.13	LC: 126
+Event: Send to VM 2	Global Time: 1457813793.3	LC: 127
+Event: Send to VM 2	Global Time: 1457813793.46	LC: 128
+Event: Send to VM 0	Global Time: 1457813793.63	LC: 129
+Event: Send to VM 0	Global Time: 1457813793.8	LC: 130
+Event: Send to VM 0	Global Time: 1457813793.97	LC: 131
+Event: Send to VM 2	Global Time: 1457813794.13	LC: 132
+Event: Send to VMs 2 and 0	Global Time: 1457813794.3	LC: 133
+Event: Send to VMs 2 and 0	Global Time: 1457813794.47	LC: 134
+Event: Send to VM 2	Global Time: 1457813794.63	LC: 135
+Event: Send to VM 0	Global Time: 1457813794.8	LC: 136
+Event: Send to VM 0	Global Time: 1457813794.97	LC: 137
+Event: Send to VMs 2 and 0	Global Time: 1457813795.13	LC: 138
+Event: Send to VMs 2 and 0	Global Time: 1457813795.3	LC: 139
+Event: Send to VM 0	Global Time: 1457813795.47	LC: 140
+Event: Internal Event	Global Time: 1457813795.64	LC: 141
+Event: Send to VM 0	Global Time: 1457813795.8	LC: 142
+Event: Internal Event	Global Time: 1457813795.97	LC: 143
+Event: Send to VM 0	Global Time: 1457813796.14	LC: 144
+Event: Internal Event	Global Time: 1457813796.3	LC: 145
+Event: Internal Event	Global Time: 1457813796.47	LC: 146
+Event: Send to VM 0	Global Time: 1457813796.64	LC: 147
+Event: Send to VM 0	Global Time: 1457813796.8	LC: 148
+Event: Send to VM 2	Global Time: 1457813796.97	LC: 149
+Event: Send to VMs 2 and 0	Global Time: 1457813797.14	LC: 150
+Event: Send to VMs 2 and 0	Global Time: 1457813797.31	LC: 151
+Event: Send to VM 2	Global Time: 1457813797.47	LC: 152
+Event: Send to VM 2	Global Time: 1457813797.64	LC: 153
+Event: Internal Event	Global Time: 1457813797.81	LC: 154
+Event: Internal Event	Global Time: 1457813797.97	LC: 155
+Event: Send to VM 2	Global Time: 1457813798.14	LC: 156
+Event: Send to VM 0	Global Time: 1457813798.31	LC: 157
+Event: Send to VMs 2 and 0	Global Time: 1457813798.48	LC: 158
+Event: Internal Event	Global Time: 1457813798.64	LC: 159
+Event: Send to VM 0	Global Time: 1457813798.81	LC: 160
+Event: Send to VM 0	Global Time: 1457813798.98	LC: 161
+Event: Send to VMs 2 and 0	Global Time: 1457813799.14	LC: 162
+Event: Send to VM 0	Global Time: 1457813799.31	LC: 163
+Event: Internal Event	Global Time: 1457813799.48	LC: 164
+Event: Send to VM 0	Global Time: 1457813799.64	LC: 165
+Event: Internal Event	Global Time: 1457813799.81	LC: 166
+Event: Send to VMs 2 and 0	Global Time: 1457813799.98	LC: 167
+Event: Send to VM 2	Global Time: 1457813800.15	LC: 168
+Event: Send to VM 2	Global Time: 1457813800.31	LC: 169
+Event: Internal Event	Global Time: 1457813800.48	LC: 170
+Event: Send to VM 2	Global Time: 1457813800.65	LC: 171
+Event: Send to VM 0	Global Time: 1457813800.81	LC: 172
+Event: Send to VM 0	Global Time: 1457813800.98	LC: 173
+Event: Send to VM 2	Global Time: 1457813801.15	LC: 174
+Event: Send to VM 0	Global Time: 1457813801.31	LC: 175
+Event: Send to VM 2	Global Time: 1457813801.48	LC: 176
+Event: Send to VMs 2 and 0	Global Time: 1457813801.65	LC: 177
+Event: Internal Event	Global Time: 1457813801.82	LC: 178
+Event: Send to VM 2	Global Time: 1457813801.98	LC: 179
+Event: Send to VM 0	Global Time: 1457813802.15	LC: 180
+Event: Send to VM 2	Global Time: 1457813802.32	LC: 181
+Event: Send to VM 2	Global Time: 1457813802.48	LC: 182
+Event: Send to VM 0	Global Time: 1457813802.65	LC: 183
+Event: Send to VM 2	Global Time: 1457813802.82	LC: 184
+Event: Send to VM 0	Global Time: 1457813802.99	LC: 185
+Event: Internal Event	Global Time: 1457813803.15	LC: 186
+Event: Send to VM 0	Global Time: 1457813803.32	LC: 187
+Event: Send to VMs 2 and 0	Global Time: 1457813803.49	LC: 188
+Event: Internal Event	Global Time: 1457813803.65	LC: 189
+Event: Send to VM 0	Global Time: 1457813803.82	LC: 190
+Event: Internal Event	Global Time: 1457813803.99	LC: 191
+Event: Send to VM 0	Global Time: 1457813804.15	LC: 192
+Event: Send to VMs 2 and 0	Global Time: 1457813804.32	LC: 193
+Event: Send to VMs 2 and 0	Global Time: 1457813804.49	LC: 194
+Event: Send to VM 0	Global Time: 1457813804.66	LC: 195
+Event: Internal Event	Global Time: 1457813804.82	LC: 196
+Event: Send to VMs 2 and 0	Global Time: 1457813804.99	LC: 197
+Event: Internal Event	Global Time: 1457813805.16	LC: 198
+Event: Internal Event	Global Time: 1457813805.32	LC: 199
+Event: Send to VM 2	Global Time: 1457813805.49	LC: 200
+Event: Send to VM 0	Global Time: 1457813805.66	LC: 201
+Event: Send to VMs 2 and 0	Global Time: 1457813805.82	LC: 202
+Event: Internal Event	Global Time: 1457813805.99	LC: 203
+Event: Internal Event	Global Time: 1457813806.16	LC: 204
+Event: Send to VMs 2 and 0	Global Time: 1457813806.33	LC: 205
+Event: Send to VM 0	Global Time: 1457813806.49	LC: 206
+Event: Send to VM 0	Global Time: 1457813806.66	LC: 207
+Event: Send to VMs 2 and 0	Global Time: 1457813806.83	LC: 208
+Event: Send to VM 2	Global Time: 1457813806.99	LC: 209
+Event: Send to VM 0	Global Time: 1457813807.16	LC: 210
+Event: Send to VM 0	Global Time: 1457813807.33	LC: 211
+Event: Send to VMs 2 and 0	Global Time: 1457813807.49	LC: 212
+Event: Send to VM 0	Global Time: 1457813807.66	LC: 213
+Event: Send to VMs 2 and 0	Global Time: 1457813807.83	LC: 214
+Event: Send to VM 0	Global Time: 1457813808.0	LC: 215
+Event: Send to VM 2	Global Time: 1457813808.16	LC: 216
+Event: Send to VM 2	Global Time: 1457813808.33	LC: 217
+Event: Send to VM 0	Global Time: 1457813808.5	LC: 218
+Event: Send to VMs 2 and 0	Global Time: 1457813808.67	LC: 219
+Event: Send to VM 0	Global Time: 1457813808.83	LC: 220
+Event: Send to VM 0	Global Time: 1457813809.0	LC: 221
+Event: Internal Event	Global Time: 1457813809.17	LC: 222
+Event: Send to VM 2	Global Time: 1457813809.33	LC: 223
+Event: Internal Event	Global Time: 1457813809.5	LC: 224
+Event: Send to VM 2	Global Time: 1457813809.67	LC: 225
+Event: Internal Event	Global Time: 1457813809.84	LC: 226
+Event: Send to VM 0	Global Time: 1457813810.0	LC: 227
+Event: Send to VM 2	Global Time: 1457813810.17	LC: 228
+Event: Send to VM 2	Global Time: 1457813810.34	LC: 229
+Event: Send to VMs 2 and 0	Global Time: 1457813810.5	LC: 230
+Event: Send to VM 2	Global Time: 1457813810.67	LC: 231
+Event: Send to VM 0	Global Time: 1457813810.84	LC: 232
+Event: Send to VM 2	Global Time: 1457813811.0	LC: 233
+Event: Send to VMs 2 and 0	Global Time: 1457813811.17	LC: 234
+Event: Send to VM 0	Global Time: 1457813811.34	LC: 235
+Event: Send to VM 0	Global Time: 1457813811.51	LC: 236
+Event: Send to VMs 2 and 0	Global Time: 1457813811.67	LC: 237
+Event: Send to VM 0	Global Time: 1457813811.84	LC: 238
+Event: Internal Event	Global Time: 1457813812.01	LC: 239
