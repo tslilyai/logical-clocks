@@ -1,6 +1,17 @@
-import os, fcntl, errno
+import os, fcntl, errno, select
 
 class Queue(object):
+    '''
+        An inter-process queue that uses the same interface as the Python Queue.Queue class.
+
+        Internally, the queue uses a pipe for processes to communicate.
+        Queue elements are separated by new lines.
+        Reading from the pipe is done in a non-blocking way.
+
+        To use this Queue class, create a Queue object before fork.
+        Then, both processes, though their queue copies live in separate address spaces,
+        share a pipe through which they could communicate.
+    '''
     def __init__(self):
         self.pipe = os.pipe()
         fcntl.fcntl(self.pipe[0], fcntl.F_SETFL, os.O_NONBLOCK)
@@ -45,5 +56,6 @@ class Queue(object):
         return True
 
     def put(self, msg):
+        assert len('%s\n' % msg) < select.PIPE_BUF
         w = self.pipe[1]
         os.write(w, '%s\n' % msg)
