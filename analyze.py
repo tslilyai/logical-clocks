@@ -1,3 +1,7 @@
+'''
+analyze.py: goes through the log files in logs/ and computes the logical clock drifts across time slices for each log.
+'''
+
 import glob
 
 def frange(s, e, i=1):
