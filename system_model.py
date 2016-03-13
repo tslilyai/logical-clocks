@@ -8,8 +8,10 @@ import os
 import sys
 
 '''
-    Start 3 VMs (i.e. "Process" threads)
-    Initialize network connections (i.e. array of message queues)
+    Creates 3 pipes to mimic socket communication,
+    forks off 3 processes and assigns each process a pipe,
+    and waits for the 3 processes to finish.
+    Each process will simulate a VM.
     Specify the number of clock ticks per second for each process (how often it should check msgs/send msgs)
         Random number between 1 and 6
 '''

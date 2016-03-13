@@ -1,3 +1,7 @@
+'''
+analyze.py: goes through the log files in logs/ and computes the logical clock drifts across time slices for each log.
+'''
+
 import glob
 
 def frange(s, e, i=1):
@@ -48,7 +52,7 @@ for f in glob.glob('logs/1-events-*.log'):
                 if log[j][0] > gtime:
                     break
                 records[i] = log[j]
-            current_indices[i] = j
+            current_indices[i] = max(0, j-1)
 
         if all(records):
             lcs = [record[1] for record in records]
