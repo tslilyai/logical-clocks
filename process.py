@@ -13,10 +13,18 @@ class Process(object):
     def __init__(self, proc_num, queues, clock_speed):
         # trial number
         self.trial_num = int(sys.argv[1])
-        # number of possible types of events
-        self.num_events = int(sys.argv[2])
         # should we collect metrics or not
-        self.collect_metrics = bool(sys.argv[3])
+        if sys.argv[2] == "false":
+            self.collect_metrics = False
+        else:
+            self.collect_metrics = True
+        # number of possible types of events -- determines the 
+        # probability of sending a message
+        if len(sys.argv) == 4:
+            self.num_events = (3/float(sys.argv[3]))
+        else:
+            self.num_events = 10
+
         self.proc_num = proc_num
         self.msg_queues = queues
         self.my_queue = queues[proc_num]

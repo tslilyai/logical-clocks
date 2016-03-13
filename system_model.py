@@ -14,8 +14,8 @@ import sys
         Random number between 1 and 6
 '''
 def main():
-    if len(sys.argv) != 4:
-        print "Usage: python system_model [trial_number] [num_possible_events] [collect_metrics(true/false)]"
+    if len(sys.argv) != 3 and len(sys.argv) != 4:
+        print "Usage: python system_model [trial_number] [collect_metrics(true/false)] [probability of a send]"
     msg_queues = [Queue() for _ in range(3)]
     threads = []
     pids = []
