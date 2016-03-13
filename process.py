@@ -64,12 +64,13 @@ class Process(object):
     '''
     def do_work(self):
         global_time = time.time()
+       
+        # save the old lc
+        if self.collect_metrics:
+            old_lc = self.lc
+        
         self.lc += 1
-
         if not self.my_queue.empty():
-            # save the old lc
-            if self.collect_metrics:
-                old_lc = self.lc
             
             queue_sz = self.my_queue.qsize()
             event_tpe = "Receive"

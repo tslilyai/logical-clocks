@@ -6,7 +6,7 @@ def frange(s, e, i=1):
         yield c
         c += i
 
-for f in glob.glob('logs/0-events-*.log'):
+for f in glob.glob('logs/1-events-*.log'):
     norm_fname = f.split('.')[0].split('/')[1]
     parts = norm_fname.split('-')
 
