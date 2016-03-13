@@ -7,6 +7,10 @@ Usage: `python system_model [trial_number] [collect_metrics(true/false)] [probab
 - collect_metrics can be set to true to collect metrics on logical clock values and queue length
 - P(send) must be between 0 and 1 and sets how likely a machine will send messages
 
+`collect_metrics.sh` simulates the model for one minute for some number of trials with differing probabilities of a send.
+
+`analyze.py` can be used to collect drift statistics from log files
+
 ## Model Design
 An asynchronous distributed system typically consists of several machines which communicate via some type of network connection. Each of these machines may run at a different clock speed. In this assignment, we model a small, asynchronous distributed system on a single machine by using processes as abstractions for each separate machine. 
 
