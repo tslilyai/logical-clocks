@@ -2,7 +2,7 @@
 
 David Ding and Lily Tsai
 
-Usage: `python system_model [trial_number] [collect_metrics(true/false)] [probability of a send]"
+Usage: `python system_model [trial_number] [collect_metrics(true/false)] [probability of a send]`
 - trial_number is used to uniquely identify the log files produced
 - collect_metrics can be set to true to collect metrics on logical clock values and queue length
 - P(send) must be between 0 and 1 and sets how likely a machine will send messages
@@ -55,14 +55,17 @@ to a pipe and have
 the Queue's designed owner read these messages.
 
 ## Model Behavior
-To simulate how one machine sends a network message to another, we append the sender's message to the receiving machine's queue. To simulate a machine's clock speed, we specify an integer $n$ between 1 and 6; this integer then corresponds to the number of events per second on a machine (i.e. the number clock cycles per second). Each machine enters an infinite loop. In each iteration, the machine first sleeps for $1/n$ seconds, then simulates one cycle of the model system. 
+To simulate how one machine sends a network message to another, we append the sender's message to the receiving machine's queue. To simulate a machine's clock speed, we specify an integer n between 1 and 6; this integer then corresponds to the number of events per second on a machine (i.e. the number clock cycles per second). Each machine enters an infinite loop. In each iteration, the machine first sleeps for 1/n seconds, then simulates one cycle of the model system. 
 
 In both the real and model systems, a typical mechanism for ordering events within the system is a logical clock. At every clock cycle, a machine m partakes in some type of event---either external or internal---that updates its logical clock as follows:
-1. Increment LC(m). This ensures that LC(m) is unique per event.
-2. If there is a message in m's queue, m takes the message off the queue and updates its logical clock to be the maximum of the sender's logical clock value and its own. The sender's logical cock value is contained within the received message.
-3. Otherwise, we do one of the following:
-        -  Send machine m+1 the value LC(m) with probability 10%;
-        -  Send machine m+2 the value LC(m) with probability 10%;
-        -  Send machines m+1 and m+2 the value LC(m) with probability 10%;
+
+    1. Increment LC(m). This ensures that LC(m) is unique per event.
+
+    2. If there is a message in m's queue, m takes the message off the queue and updates its logical clock to be the maximum of the sender's logical clock value and its own. The sender's logical cock value is contained within the received message.
+
+    3. Otherwise, we do one of the following:
+        -  Send machine m+1 the value LC(m) with probability 10%
+        -  Send machine m+2 the value LC(m) with probability 10%
+        -  Send machines m+1 and m+2 the value LC(m) with probability 10%
         -  If none of the above events are triggered, generate an internal event.
 
